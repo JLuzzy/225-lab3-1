@@ -7,7 +7,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/lusnakj'                                                 // <------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/JLuzzy/225-lab3-1.git'                   // <------change this
-        KUBECONFIG = credentials('kube-01')                                             // <------change this
+        KUBECONFIG = credentials('lusnakj-225')                                             // <------change this
     }
 
     stages {
